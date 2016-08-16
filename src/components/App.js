@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import SearchBar from './SearchBar';
 import Jackson from './Jackson';
 
 const API_KEY = 'AIzaSyCxj9IPD23Wsa9XRlx5z3z_qGkefRSDy1Q';
@@ -24,7 +25,7 @@ export default class App extends Component {
   render() {
     return (
       <div className='container'>
-       <p>haaaaaay</p>
+       <SearchBar />
        <Jackson />
       </div>
     );
