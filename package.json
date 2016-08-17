@@ -27,6 +27,9 @@
   },
   "dependencies": {
     "firebase": "^3.2.1",
+    "lodash": "^4.15.0",
+    "react-redux": "^4.4.5",
+    "redux": "^3.5.2",
     "youtube-api-search": "0.0.5"
   },
   "devDependencies": {
